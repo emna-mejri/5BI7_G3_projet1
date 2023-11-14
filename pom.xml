@@ -53,10 +53,16 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		
 		<dependency>
 			<groupId>org.mockito</groupId>
 			<artifactId>mockito-core</artifactId>
 			<version>4.8.0</version>
+		</dependency>
+		<dependency>
+			<groupId>net.bytebuddy</groupId>
+			<artifactId>byte-buddy</artifactId>
+			<version>1.12.18</version>
 		</dependency>
 
 		<dependency>
